@@ -3,8 +3,8 @@ import React from 'react'
 export const Home = () => {
 	return (
 		<svg
-			width='34'
-			height='34'
+			width='35'
+			height='35'
 			viewBox='0 0 26 26'
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
@@ -83,8 +83,8 @@ export const Search = () => {
 export const Profile = () => {
 	return (
 		<svg
-			width='34'
-			height='34'
+			width='35'
+			height='35'
 			viewBox='0 0 26 26'
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'

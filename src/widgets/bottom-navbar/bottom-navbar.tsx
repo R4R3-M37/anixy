@@ -49,7 +49,7 @@ export const BottomNavbar = () => {
 	}
 
 	return (
-		<div className='fixed bottom-0 left-0 z-50 w-full h-[83px] bg-background/95 border-t border-muted'>
+		<div className='fixed bottom-0 left-0 z-50 w-full h-[83px] bg-background/95'>
 			<div className='grid h-full max-w-lg grid-cols-5 mx-auto font-medium'>
 				{ALL_NAVBAR_LINKS.map(({ title, icon, link }) => (
 					<Link
