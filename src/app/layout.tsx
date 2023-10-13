@@ -1,13 +1,13 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Roboto } from 'next/font/google'
+import { Nunito } from 'next/font/google'
 import { ReactNode } from 'react'
 import { cookies } from 'next/headers'
 import { Theme } from '~/features/dark-theme/types'
 import { BottomNavbar } from '~/widgets/bottom-navbar/bottom-navbar'
 
-const roboto = Roboto({
-	weight: ['100', '300', '400', '500', '700', '900'],
+const nunito = Nunito({
+	weight: ['200', '300', '400', '500', '700', '900'],
 	subsets: ['latin', 'cyrillic']
 })
 
@@ -22,7 +22,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
 	return (
 		<html lang='en' className={theme} style={{ colorScheme: theme }}>
-			<body className={roboto.className}>
+			<body className={nunito.className}>
 				{children}
 				<BottomNavbar />
 			</body>
